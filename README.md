@@ -3,11 +3,11 @@
 ## Instructions
 Veillez à bien importer les **node modules** si besoin.
 
+## Style
+Style fait avec bootstrap et Twig.
+
 ## Migration pour la base de données
 Exécutez les commandes suivantes pour générer et appliquer les migrations :
-
-# Style
-Style fait avec bootstrap et Twig.
 
 ```bash
 php bin/console make:migration
