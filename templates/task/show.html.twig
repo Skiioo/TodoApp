@@ -13,7 +13,7 @@
                     <td>{{ task.id }}</td>
                 </tr>
                 <tr>
-                    <th scope="row">Title</th>
+                    <th scope="row">Titre</th>
                     <td>{{ task.title }}</td>
                 </tr>
                 <tr>
@@ -21,12 +21,12 @@
                     <td>{{ task.description }}</td>
                 </tr>
                 <tr>
-                    <th scope="row">Status</th>
+                    <th scope="row">Terminé</th>
                     <td>{{ task.status ? 'Yes' : 'No' }}</td>
                 </tr>
                 <tr>
-                    <th scope="row">Created_at</th>
-                    <td>{{ task.createdAt ? task.createdAt|date('Y-m-d H:i:s') : '' }}</td>
+                    <th scope="row">Date et heure de création</th>
+                    <td>{{ task.createdAt ? task.createdAt|date('Y-m-d H:i:s', 'Europe/Paris') : '' }}</td>
                 </tr>
             </tbody>
         </table>
