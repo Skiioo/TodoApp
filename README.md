@@ -17,7 +17,7 @@ php bin/console doctrine:migrations:migrate
 | **GET**      | `http://127.0.0.1:8000/task/{id}`      | Récupérer une tâche par ID  |
 | **POST**     | `http://127.0.0.1:8000/task/new`       | Créer une nouvelle tâche    |
 | **UPDATE** | `http://127.0.0.1:8000/task/{id}/edit` | Mettre à jour une tâche     |
-| **DELETE**   | `http://127.0.0.1:8000/task`           | Supprimer une tâche        |
+| **DELETE**   | `http://127.0.0.1:8000/task/{id}`           | Supprimer une tâche        |
 
 
 
